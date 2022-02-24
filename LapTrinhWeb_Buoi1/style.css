@@ -13,17 +13,17 @@ nav{
     float: left;
 }
 #menu
-{
-    
+{  
  width: 100%;
- border: 1px solid #B0C4DE;
+ border: 5px solid #b9974b;
  height: 100px;
  background-color: white;
  font-family: Helvetica, sans-serif;
- font-size: 20px;
+ font-size: 24px;
  border-radius: 10px;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
+font-size: medium;
 }
 #menu ul
 {
@@ -40,10 +40,43 @@ a{
     text-decoration: none;
 }
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: antiquewhite;
+    background-color: #ad7917;
 }
 h3{
-    font-size: 3    0px;
-    float: right;
+position: static;
+height: 100px;
+left: 120px;
+right: 16px;
+top: calc(50% - 40px/2);
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 150%;
+display: flex;
+align-items: center;
+color: black;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 12px;
+float: right;
 }
-
+button{
+float: right;
+left: 16px;
+right: 16px;
+top: 20px;
+bottom: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;    
+width: 100px;
+height: 50px;
+text-align: center;
+}
+@media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
